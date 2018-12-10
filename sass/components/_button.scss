@@ -38,7 +38,7 @@
         transition: all .4s;
     }
 
-    &-white {
+    &--white {
         background-color: $color-white;
         color: $color-grey-dark;
         
@@ -46,8 +46,17 @@
             background-color: $color-white;
         }
     }
+
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+        
+        &::after {
+            background-color: $color-primary;
+        }
+    }
     
-    &-animated {
+    &--animated {
         animation: moveInBottom .5s ease-out .75s;
         animation-fill-mode: backwards;
     }
