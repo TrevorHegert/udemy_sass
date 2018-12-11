@@ -29,7 +29,7 @@
                     <li class="navigation__item"><a class="navigation__link" href="#"><span>01</span>About Natours</a></li>
                     <li class="navigation__item"><a class="navigation__link" href="#"><span>02</span>Your Benefits</a></li>
                     <li class="navigation__item"><a class="navigation__link" href="#"><span>03</span>Popular Tours</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="#"><span>04</span>Stories</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#section-stories"><span>04</span>Stories</a></li>
                     <li class="navigation__item"><a class="navigation__link" href="#"><span>05</span>Book Now</a></li>
                 </ul>
             </nav>
@@ -47,7 +47,7 @@
                     <span class="heading-primary--sub">is where life happens</span>
                 </h1>
 
-                <a href="#" class="btn btn--white btn--animated">Discover Our Tours</a>
+                <a href="#section-tours" class="btn btn--white btn--animated">Discover Our Tours</a>
             </div>
         </header>
 
@@ -126,7 +126,7 @@
                 </div>
             </section>
 
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Most popular tours
@@ -159,7 +159,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$297</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -189,7 +189,7 @@
                                             <p class="card__price-only">Only</p>
                                             <p class="card__price-value">$497</p>
                                         </div>
-                                        <a href="#" class="btn btn--white">Book now!</a>
+                                        <a href="#popup" class="btn btn--white">Book now!</a>
                                     </div>
                                 </div>
                             </div>
@@ -219,7 +219,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$897</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +230,7 @@
                 </div>
             </section>
 
-            <section class="section-stories">
+            <section class="section-stories" id="section-stories">
                 <div class="bg-video">
                     <video class="bg-video__content" autoplay muted loop>
                         <source src="img/video.mp4" type="video/mp4">
@@ -346,13 +346,14 @@
             </div>
         </footer>
 
-        <div class="popup">
+        <div class="popup" id="popup">
             <div class="popup__content">
                 <div class="popup__left">
                     <img src="img/nat-8.jpg" alt="Tour Photo" class="popup__image">
                     <img src="img/nat-9.jpg" alt="Tour Photo" class="popup__image">
                 </div>
                 <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
                     <h2 class="heading-secondary u-margin-bottom-small">Start Booking Now</h2>
                     <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
                     <p class="popup__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi culpa tempora earum rerum suscipit, doloribus perspiciatis omnis error totam odio ratione. Est veniam, harum commodi mollitia excepturi adipisci natus explicabo! Accusamus maiores ratione eos omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam illo praesentium fugit dolorum, earum expedita reiciendis, ducimus molestiae voluptatum dicta esse molestias? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis deserunt consequatur porro error quisquam delectus, non rem quibusdam, nesciunt accusamus excepturi. Quibusdam magnam architecto dolorem consectetur distinctio? Asperiores voluptatum iusto architecto quod nobis numquam eius.</p>
