@@ -33,6 +33,11 @@
 900  -  1200px:   Tablet - Landscape    1200px -    75em  -  tab-land
 [1200 -  1800px]  NORMAL STYLES         1800px - 112.5em  -  monitor
 1800px +          Large Monitors
+
+ORDER: Base & Typography => General Lyaout & Grid => Page Layout > Components
+
+1em = 16px
+
 */
 
 @mixin respond($breakpoint) {
