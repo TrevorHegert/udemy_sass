@@ -24,7 +24,8 @@
     }
 
     &__left {
-        width: 33%;
+        height: 100%;
+        width: auto;
         display: table-cell;
     }
 
@@ -72,6 +73,43 @@
             &:hover {
                 color: $color-primary;
             }
+        }
+    }
+
+    @media (max-width: 65em) { 
+        &__content {
+            background-image: linear-gradient(
+            to right bottom,
+            rgba($color-white, 0.8),
+            rgba($color-white, 0.8)),
+            url("../img/nat-9.jpg");
+            background-position: bottom;
+            background-size: cover;
+            text-align: center;
+        }
+    
+        &__left {
+            width: 100%;
+            display: none;
+            justify-content: space-evenly;
+        }
+    
+        &__right {
+            width: 100%;
+            display: block;
+        }
+    
+        &__image {
+            display: inline-block;
+            height: 20rem;
+            width: auto;
+        }
+    
+    }
+
+    @include respond(phone) {
+        &__text {
+            column-count: 1;
         }
     }
 }
