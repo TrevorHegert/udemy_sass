@@ -41,6 +41,9 @@ ORDER: Base & Typography => General Lyaout & Grid => Page Layout > Components
 */
 
 @mixin respond($breakpoint) {
+    @if $breakpoint == oldphone {
+        @media (max-width: 26.25em) { @content };
+    }
     @if $breakpoint == phone {
         @media (max-width: 37.5em) { @content };
     }

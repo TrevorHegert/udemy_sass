@@ -22,9 +22,10 @@ body {
         animation-timing-function: ease-out;
         
         @include respond(phone) {
-            letter-spacing: 1rem;
+            letter-spacing: .7rem;
             font-family: 5rem;
-    }
+        }
+
     }
     
     &--sub {

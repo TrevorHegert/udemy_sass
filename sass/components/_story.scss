@@ -32,7 +32,7 @@
         transform: translateX(-3rem) skewX(12deg);
         @include respond(phone) {
             transform: skewX(0deg);
-            margin-right: 3rem;
+            float: none;
         }
     }
 

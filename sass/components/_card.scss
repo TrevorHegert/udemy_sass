@@ -4,6 +4,10 @@
     -moz-perspective: 150rem;
     position: relative;
     height: 52rem;
+
+    @include respond(phone) {
+        margin: 0 5rem;
+    }
     
     &__side {
     height: 52rem;   
