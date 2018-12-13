@@ -549,7 +549,7 @@ body {
     display: inline-block; }
     .popup__close:link:hover, .popup__close:visited:hover {
       color: #7ed56f; }
-  @media (max-width: 65em) {
+  @media (max-width: 60em) {
     .popup__content {
       background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/nat-9.jpg");
       background-position: bottom;
