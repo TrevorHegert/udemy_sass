@@ -31,7 +31,7 @@
         }
  
         &:hover {
-            @media (min-width: 35em) {
+            @media only screen and (min-width: 35em) {
                 outline: 1.5rem solid $color-primary;
                 transform: scale(1.05) translateY(-.5rem);
                 box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
@@ -41,7 +41,7 @@
     }
 
     &:hover &__photo:not(:hover) {
-        @media (min-width: 35em) {
+        @media only screen and (min-width: 35em) {
             transform: scale(.95);
         }
     }
